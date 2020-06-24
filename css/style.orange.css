@@ -2782,8 +2782,8 @@ code {
 }
 .background-img {
 	width: 33%;
-	margin-right: 50px;
-	margin-bottom: 50px;	
+	margin-right: 0px;
+	margin-bottom: 30px;	
 	border: 1px solid #ddd;
     border-radius: 4px;
 }
