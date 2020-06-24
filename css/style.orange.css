@@ -2781,42 +2781,13 @@ code {
    align-items:center;
 }
 .background-img {
+	width: 33%;
 	margin-right: 50px;
 	margin-bottom: 50px;	
 	border: 1px solid #ddd;
     border-radius: 4px;
 }
 
-.subject-img-head {
-	margin-right: 50px;
-	margin-bottom: 50px;	
-	border: 1px solid #ddd;
-    border-radius: 4px;
-	object-position: 100% 0;
-	width: 200px; /* width of container */
-    height: 100px; /* height of container */
-    object-fit: cover;
-}
-.subject-img-body {
-	margin-right: 50px;
-	margin-bottom: 50px;	
-	border: 1px solid #ddd;
-    border-radius: 4px;
-	object-position: 100% -100px;
-	width: 200px; /* width of container */
-    height: 125px; /* height of container */
-    object-fit: cover;
-}
-.subject-img-feet {
-	margin-right: 50px;
-	margin-bottom: 50px;	
-	border: 1px solid #ddd;
-    border-radius: 4px;
-	object-position: bottom;
-	width: 200px; /* width of container */
-    height: 150px; /* height of container */
-    object-fit: cover;
-}
 
 div.polaroid {
   width: 32%;
