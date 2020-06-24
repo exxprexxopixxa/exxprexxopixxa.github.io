@@ -1140,7 +1140,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-link:hover {
-  color: #e01557;
+  color: #fa3900;
   text-decoration: underline;
 }
 
@@ -1760,7 +1760,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #e01557;
+  color: #fa3900;
   text-decoration: underline;
 }
 
@@ -1915,7 +1915,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .page-link:hover, .page-link:focus {
-  color: #e01557;
+  color: #fa3900;
   text-decoration: none;
   background-color: #eee;
   border-color: #999;
@@ -2774,4 +2774,60 @@ code {
 
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #222;
+}
+
+.box {
+   display: flex;
+   align-items:center;
+}
+.background-img {
+	margin-right: 50px;
+	margin-bottom: 50px;	
+	border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.subject-img-head {
+	margin-right: 50px;
+	margin-bottom: 50px;	
+	border: 1px solid #ddd;
+    border-radius: 4px;
+	object-position: 100% 0;
+	width: 200px; /* width of container */
+    height: 100px; /* height of container */
+    object-fit: cover;
+}
+.subject-img-body {
+	margin-right: 50px;
+	margin-bottom: 50px;	
+	border: 1px solid #ddd;
+    border-radius: 4px;
+	object-position: 100% -100px;
+	width: 200px; /* width of container */
+    height: 125px; /* height of container */
+    object-fit: cover;
+}
+.subject-img-feet {
+	margin-right: 50px;
+	margin-bottom: 50px;	
+	border: 1px solid #ddd;
+    border-radius: 4px;
+	object-position: bottom;
+	width: 200px; /* width of container */
+    height: 150px; /* height of container */
+    object-fit: cover;
+}
+
+div.polaroid {
+  width: 32%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  float: left;
+  margin-right: 1%;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
 }
